@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: MrT1uOZ/aEsqQHUDhq8/s4mcEq117pnKUY+MDe7qxKDNm1gSeTnYyLXRLnydUXUsrntTedWSCXHyW5T6mN7IO0UlL89TaXdnNlL66l6X5tsOAvo8Jsv9iD9MYJGsxoRMZrIWYSF8ph3zeHAatzWD24UVHtz7gsjVBMSBuxia8y7LNx00JCCCqWIfohncMlzfKNarxDLQGqM4Ut7A19B519emKP7qwkXy5DdrETzAl0AUZemkRC/4xhqjGC+sLvqKY7hT8cwT+nWTD156noukO9EQeYjRiMV4rRbWDRh2198rhLfVSIrX+4W7ty4oseq6svA4xLps7cKR//HCHiTYZ/ji9ysrlD4HB9FHhZ3PSeWeqjOqOw9rPLdZRK376VNA3g2+S7BcoZ3zcUs1FHZI7erk2FqYnP9VnEE39Yu1atEvSri843HDXgLBqoaTP2M9BiTU0B67+IokSVLlvTe/dyA8z0zh1SPeshmZlr+K4Wzp8ABDZPVUbyu+RvMF+EgYVYN+qRsAa8GDfjUVjmYL00uVt/KdLqLwXdJxKWSFOKoBy+36hfpcB0gjg0p3usztetHhtCIPE/0M45NrLnchU1Ut7ly8wdm03wPaS/l2iiVWclY557BRudw93eO3YRjWcCiMfqqyYJDCCiKHniXppqvHhXrAxxkzf9WrX4OFU94=
+  app: fierce-fortress-56908
+  on:
+    repo: eswoodard/node-shopping-list-integration-tests
